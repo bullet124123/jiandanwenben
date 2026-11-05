@@ -1,0 +1,4 @@
+#ifndef ABOUTDIALOG_H
+#define ABOUTDIALOG_H
+
+#endif // ABOUTDIALOG_H

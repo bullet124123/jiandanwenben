@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+082d1e60129a3c7d63cbe1bbd96028e1 CMakeFiles/jiandanwenben_autogen
+68c4dfaa009647ccd98b76f6a889e2e0 jiandanwenben_autogen/timestamp

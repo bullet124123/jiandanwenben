@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-92b72145ce22535db266.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "jiandanwenben",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "jiandanwenben::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jiandanwenben-Debug-6ac4fb35fadf0c05ba43.json",
+					"name" : "jiandanwenben",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jiandanwenben_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jiandanwenben_autogen-Debug-4ab39fc2cf106ed51f49.json",
+					"name" : "jiandanwenben_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jiandanwenben_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jiandanwenben_autogen_timestamp_deps-Debug-cb218854c8cf74aec8cf.json",
+					"name" : "jiandanwenben_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug",
+		"source" : "D:/a/jiandanwenben"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

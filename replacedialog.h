@@ -1,0 +1,4 @@
+#ifndef REPLACEDIALOG_H
+#define REPLACEDIALOG_H
+
+#endif // REPLACEDIALOG_H
