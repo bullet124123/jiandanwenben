@@ -79,8 +79,8 @@ clean: CMakeFiles/jiandanwenben_autogen.dir/clean
 # Target rules for target CMakeFiles/jiandanwenben.dir
 
 # All Build rule for target.
-CMakeFiles/jiandanwenben.dir/all: CMakeFiles/jiandanwenben_autogen_timestamp_deps.dir/all
 CMakeFiles/jiandanwenben.dir/all: CMakeFiles/jiandanwenben_autogen.dir/all
+CMakeFiles/jiandanwenben.dir/all: CMakeFiles/jiandanwenben_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\jiandanwenben.dir\build.make CMakeFiles/jiandanwenben.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\jiandanwenben.dir\build.make CMakeFiles/jiandanwenben.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\a\jiandanwenben\build\Desktop_Qt_6_8_3_MinGW_64_bit_Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target jiandanwenben"

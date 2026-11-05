@@ -43,6 +43,11 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/a/jiandanwenben/*.cpp")
 set(OLD_GLOB
   "D:/a/jiandanwenben/aboutdialog.cpp"
   "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/EWIEGA46WW/moc_aboutdialog.cpp"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/EWIEGA46WW/moc_finddialog.cpp"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/EWIEGA46WW/moc_replacedialog.cpp"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/mocs_compilation.cpp"
   "D:/a/jiandanwenben/finddialog.cpp"
   "D:/a/jiandanwenben/main.cpp"
   "D:/a/jiandanwenben/mainwindow.cpp"
@@ -66,6 +71,11 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/a/jiandanwenben/*.h")
 set(OLD_GLOB
   "D:/a/jiandanwenben/aboutdialog.h"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/include/ui_aboutdialog.h"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/include/ui_finddialog.h"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/include/ui_mainwindow.h"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/include/ui_replacedialog.h"
+  "D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/moc_predefs.h"
   "D:/a/jiandanwenben/finddialog.h"
   "D:/a/jiandanwenben/mainwindow.h"
   "D:/a/jiandanwenben/replacedialog.h"
