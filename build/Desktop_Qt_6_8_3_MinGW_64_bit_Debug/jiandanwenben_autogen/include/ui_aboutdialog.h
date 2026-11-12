@@ -21,7 +21,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_Dialog
+class Ui_AboutDialog
 {
 public:
     QWidget *widget;
@@ -36,12 +36,12 @@ public:
     QPushButton *btnok;
     QSpacerItem *horizontalSpacer_2;
 
-    void setupUi(QDialog *Dialog)
+    void setupUi(QDialog *AboutDialog)
     {
-        if (Dialog->objectName().isEmpty())
-            Dialog->setObjectName("Dialog");
-        Dialog->resize(149, 118);
-        widget = new QWidget(Dialog);
+        if (AboutDialog->objectName().isEmpty())
+            AboutDialog->setObjectName("AboutDialog");
+        AboutDialog->resize(149, 118);
+        widget = new QWidget(AboutDialog);
         widget->setObjectName("widget");
         widget->setGeometry(QRect(0, 0, 148, 104));
         verticalLayout = new QVBoxLayout(widget);
@@ -91,26 +91,26 @@ public:
         verticalLayout->addLayout(horizontalLayout);
 
 
-        retranslateUi(Dialog);
+        retranslateUi(AboutDialog);
 
-        QMetaObject::connectSlotsByName(Dialog);
+        QMetaObject::connectSlotsByName(AboutDialog);
     } // setupUi
 
-    void retranslateUi(QDialog *Dialog)
+    void retranslateUi(QDialog *AboutDialog)
     {
-        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("Dialog", "\347\256\200\345\215\225\346\226\207\346\234\254\347\274\226\350\276\221\345\231\250", nullptr));
-        label_2->setText(QCoreApplication::translate("Dialog", "Qt\346\226\207\346\234\254\347\274\226\350\276\221\345\231\250 v1.0", nullptr));
-        label_3->setText(QCoreApplication::translate("Dialog", "\345\274\200\345\217\221\350\200\205\357\274\232\344\275\231\346\240\221\351\224\265", nullptr));
-        label_4->setText(QCoreApplication::translate("Dialog", "\345\255\246\345\217\267\357\274\2322024414290137", nullptr));
-        label_5->setText(QCoreApplication::translate("Dialog", "\351\202\256\347\256\261\357\274\2323979025048@qq.com", nullptr));
-        btnok->setText(QCoreApplication::translate("Dialog", "\347\241\256\345\256\232", nullptr));
+        AboutDialog->setWindowTitle(QCoreApplication::translate("AboutDialog", "Dialog", nullptr));
+        label->setText(QCoreApplication::translate("AboutDialog", "\347\256\200\345\215\225\346\226\207\346\234\254\347\274\226\350\276\221\345\231\250", nullptr));
+        label_2->setText(QCoreApplication::translate("AboutDialog", "Qt\346\226\207\346\234\254\347\274\226\350\276\221\345\231\250 v1.0", nullptr));
+        label_3->setText(QCoreApplication::translate("AboutDialog", "\345\274\200\345\217\221\350\200\205\357\274\232\344\275\231\346\240\221\351\224\265", nullptr));
+        label_4->setText(QCoreApplication::translate("AboutDialog", "\345\255\246\345\217\267\357\274\2322024414290137", nullptr));
+        label_5->setText(QCoreApplication::translate("AboutDialog", "\351\202\256\347\256\261\357\274\2323979025048@qq.com", nullptr));
+        btnok->setText(QCoreApplication::translate("AboutDialog", "\347\241\256\345\256\232", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class Dialog: public Ui_Dialog {};
+    class AboutDialog: public Ui_AboutDialog {};
 } // namespace Ui
 
 QT_END_NAMESPACE

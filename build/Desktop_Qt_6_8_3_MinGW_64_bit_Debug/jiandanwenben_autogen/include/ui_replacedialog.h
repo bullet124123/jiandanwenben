@@ -23,7 +23,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_Dialog
+class Ui_ReplaceDialog
 {
 public:
     QWidget *widget;
@@ -44,12 +44,12 @@ public:
     QPushButton *btnclose;
     QSpacerItem *horizontalSpacer;
 
-    void setupUi(QDialog *Dialog)
+    void setupUi(QDialog *ReplaceDialog)
     {
-        if (Dialog->objectName().isEmpty())
-            Dialog->setObjectName("Dialog");
-        Dialog->resize(290, 110);
-        widget = new QWidget(Dialog);
+        if (ReplaceDialog->objectName().isEmpty())
+            ReplaceDialog->setObjectName("ReplaceDialog");
+        ReplaceDialog->resize(290, 110);
+        widget = new QWidget(ReplaceDialog);
         widget->setObjectName("widget");
         widget->setGeometry(QRect(0, 0, 284, 96));
         verticalLayout = new QVBoxLayout(widget);
@@ -130,28 +130,28 @@ public:
         verticalLayout->addLayout(horizontalLayout_4);
 
 
-        retranslateUi(Dialog);
+        retranslateUi(ReplaceDialog);
 
-        QMetaObject::connectSlotsByName(Dialog);
+        QMetaObject::connectSlotsByName(ReplaceDialog);
     } // setupUi
 
-    void retranslateUi(QDialog *Dialog)
+    void retranslateUi(QDialog *ReplaceDialog)
     {
-        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "\346\233\277\346\215\242", nullptr));
-        label->setText(QCoreApplication::translate("Dialog", "\346\237\245\346\211\276\345\206\205\345\256\271\357\274\232", nullptr));
-        label_2->setText(QCoreApplication::translate("Dialog", "\346\233\277\346\215\242\344\270\272\357\274\232", nullptr));
-        checkCase->setText(QCoreApplication::translate("Dialog", "\345\214\272\345\210\206\345\244\247\345\260\217\345\206\231", nullptr));
-        checkWhole->setText(QCoreApplication::translate("Dialog", "\345\205\250\345\255\227\345\214\271\351\205\215", nullptr));
-        btnFindNext->setText(QCoreApplication::translate("Dialog", "\346\237\245\346\211\276\344\270\213\344\270\200\344\270\252", nullptr));
-        btnReplace->setText(QCoreApplication::translate("Dialog", "\346\233\277\346\215\242", nullptr));
-        btnReplaceAll->setText(QCoreApplication::translate("Dialog", "\345\205\250\351\203\250\346\233\277\346\215\242", nullptr));
-        btnclose->setText(QCoreApplication::translate("Dialog", "\345\205\263\351\227\255", nullptr));
+        ReplaceDialog->setWindowTitle(QCoreApplication::translate("ReplaceDialog", "\346\233\277\346\215\242", nullptr));
+        label->setText(QCoreApplication::translate("ReplaceDialog", "\346\237\245\346\211\276\345\206\205\345\256\271\357\274\232", nullptr));
+        label_2->setText(QCoreApplication::translate("ReplaceDialog", "\346\233\277\346\215\242\344\270\272\357\274\232", nullptr));
+        checkCase->setText(QCoreApplication::translate("ReplaceDialog", "\345\214\272\345\210\206\345\244\247\345\260\217\345\206\231", nullptr));
+        checkWhole->setText(QCoreApplication::translate("ReplaceDialog", "\345\205\250\345\255\227\345\214\271\351\205\215", nullptr));
+        btnFindNext->setText(QCoreApplication::translate("ReplaceDialog", "\346\237\245\346\211\276\344\270\213\344\270\200\344\270\252", nullptr));
+        btnReplace->setText(QCoreApplication::translate("ReplaceDialog", "\346\233\277\346\215\242", nullptr));
+        btnReplaceAll->setText(QCoreApplication::translate("ReplaceDialog", "\345\205\250\351\203\250\346\233\277\346\215\242", nullptr));
+        btnclose->setText(QCoreApplication::translate("ReplaceDialog", "\345\205\263\351\227\255", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class Dialog: public Ui_Dialog {};
+    class ReplaceDialog: public Ui_ReplaceDialog {};
 } // namespace Ui
 
 QT_END_NAMESPACE

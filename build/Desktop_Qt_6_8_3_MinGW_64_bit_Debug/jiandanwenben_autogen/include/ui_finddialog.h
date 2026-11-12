@@ -23,7 +23,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_Dialog
+class Ui_FindDialog
 {
 public:
     QWidget *widget;
@@ -41,12 +41,12 @@ public:
     QPushButton *btnClose;
     QSpacerItem *horizontalSpacer;
 
-    void setupUi(QDialog *Dialog)
+    void setupUi(QDialog *FindDialog)
     {
-        if (Dialog->objectName().isEmpty())
-            Dialog->setObjectName("Dialog");
-        Dialog->resize(231, 82);
-        widget = new QWidget(Dialog);
+        if (FindDialog->objectName().isEmpty())
+            FindDialog->setObjectName("FindDialog");
+        FindDialog->resize(230, 86);
+        widget = new QWidget(FindDialog);
         widget->setObjectName("widget");
         widget->setGeometry(QRect(0, 0, 226, 71));
         verticalLayout = new QVBoxLayout(widget);
@@ -112,26 +112,26 @@ public:
         verticalLayout->addLayout(horizontalLayout_4);
 
 
-        retranslateUi(Dialog);
+        retranslateUi(FindDialog);
 
-        QMetaObject::connectSlotsByName(Dialog);
+        QMetaObject::connectSlotsByName(FindDialog);
     } // setupUi
 
-    void retranslateUi(QDialog *Dialog)
+    void retranslateUi(QDialog *FindDialog)
     {
-        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "\346\237\245\346\211\276", nullptr));
-        label->setText(QCoreApplication::translate("Dialog", "\346\237\245\346\211\276\345\206\205\345\256\271\357\274\232", nullptr));
-        checkCase->setText(QCoreApplication::translate("Dialog", "\345\214\272\345\210\206\345\244\247\345\260\217\345\206\231", nullptr));
-        checkWhole->setText(QCoreApplication::translate("Dialog", "\345\205\250\345\255\227\345\214\271\351\205\215", nullptr));
-        btnFindNext->setText(QCoreApplication::translate("Dialog", "\346\237\245\346\211\276\344\270\213\344\270\200\344\270\252", nullptr));
-        btnFindPrev->setText(QCoreApplication::translate("Dialog", "\346\237\245\346\211\276\344\270\212\344\270\200\344\270\252", nullptr));
-        btnClose->setText(QCoreApplication::translate("Dialog", "\345\205\263\351\227\255", nullptr));
+        FindDialog->setWindowTitle(QCoreApplication::translate("FindDialog", "\346\237\245\346\211\276", nullptr));
+        label->setText(QCoreApplication::translate("FindDialog", "\346\237\245\346\211\276\345\206\205\345\256\271\357\274\232", nullptr));
+        checkCase->setText(QCoreApplication::translate("FindDialog", "\345\214\272\345\210\206\345\244\247\345\260\217\345\206\231", nullptr));
+        checkWhole->setText(QCoreApplication::translate("FindDialog", "\345\205\250\345\255\227\345\214\271\351\205\215", nullptr));
+        btnFindNext->setText(QCoreApplication::translate("FindDialog", "\346\237\245\346\211\276\344\270\213\344\270\200\344\270\252", nullptr));
+        btnFindPrev->setText(QCoreApplication::translate("FindDialog", "\346\237\245\346\211\276\344\270\212\344\270\200\344\270\252", nullptr));
+        btnClose->setText(QCoreApplication::translate("FindDialog", "\345\205\263\351\227\255", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class Dialog: public Ui_Dialog {};
+    class FindDialog: public Ui_FindDialog {};
 } // namespace Ui
 
 QT_END_NAMESPACE

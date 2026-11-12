@@ -184,12 +184,26 @@ void MainWindow::on_actionCut_triggered()
 }
 // 复制
 void MainWindow::on_actionCopy_triggered()
-{
-    ui->plainTextEdit->copy();
-}
+
 // 粘贴
 void MainWindow::on_actionPaste_triggered()
 {
     ui->plainTextEdit->paste();
 }
+void MainWindow::on_actionFind_triggered()
+{
+    FindDialog dlg(this, m_plainTextEdit);
+    dlg.exec();
+}
 
+void MainWindow::on_actionReplace_triggered()
+{
+    ReplaceDialog dlg(this, m_plainTextEdit);
+    dlg.exec();
+}
+
+void MainWindow::on_actionAbout_triggered()
+{
+    AboutDialog dlg(this);
+    dlg.exec();
+}

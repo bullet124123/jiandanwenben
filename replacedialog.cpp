@@ -1,7 +1,7 @@
 #include "replacedialog.h"
 #include "ui_replacedialog.h"
-#include <QMessageBox>
 #include <QTextCursor>
+#include <QMessageBox>
 
 ReplaceDialog::ReplaceDialog(QWidget *parent, QPlainTextEdit *edit) :
     QDialog(parent),
@@ -28,25 +28,21 @@ QTextDocument::FindFlags ReplaceDialog::getFlags()
 
 void ReplaceDialog::on_btnFindNext_clicked()
 {
-    QString findStr = ui->lineEditFind->text();
-    if(findStr.isEmpty()) return;
-    if(!m_textEdit->find(findStr, getFlags()))
+    QString text = ui->lineEditFind->text();
+    if(text.isEmpty()) return;
+    bool ok = m_textEdit->find(text, getFlags());
+    if(!ok)
     {
-        QMessageBox::information(this, "提示", "找不到内容！");
-        m_textEdit->moveCursor(QTextCursor::Start);
+        QMessageBox::information(this, "提示", "已搜索到文档末尾！");
     }
 }
 
 void ReplaceDialog::on_btnReplace_clicked()
 {
-    QString findStr = ui->lineEditFind->text();
-    QString repStr = ui->lineEditReplace->text();
-    if(findStr.isEmpty()) return;
-
     QTextCursor cursor = m_textEdit->textCursor();
-    if(cursor.hasSelection() && cursor.selectedText() == findStr)
+    if(cursor.hasSelection())
     {
-        cursor.insertText(repStr);
+        cursor.insertText(ui->lineEditReplace->text());
         m_textEdit->setTextCursor(cursor);
     }
     on_btnFindNext_clicked();
@@ -57,15 +53,17 @@ void ReplaceDialog::on_btnReplaceAll_clicked()
     QString findStr = ui->lineEditFind->text();
     QString repStr = ui->lineEditReplace->text();
     if(findStr.isEmpty()) return;
-    int count = 0;
+
     m_textEdit->moveCursor(QTextCursor::Start);
+    int cnt = 0;
     while(m_textEdit->find(findStr, getFlags()))
     {
-        QTextCursor cur = m_textEdit->textCursor();
-        cur.insertText(repStr);
-        count++;
+        QTextCursor cursor = m_textEdit->textCursor();
+        cursor.insertText(repStr);
+        m_textEdit->setTextCursor(cursor);
+        cnt++;
     }
-    QMessageBox::information(this, "结果", QString("一共替换 %1 处").arg(count));
+    QMessageBox::information(this, "替换完成", QString("一共替换了 %1 处").arg(cnt));
 }
 
 void ReplaceDialog::on_btnClose_clicked()
