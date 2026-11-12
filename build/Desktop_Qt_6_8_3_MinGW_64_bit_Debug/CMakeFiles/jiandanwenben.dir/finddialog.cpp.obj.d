@@ -371,20 +371,81 @@ CMakeFiles/jiandanwenben.dir/finddialog.cpp.obj: \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/a/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/a/6.8.3/mingw_64/include/QtGui/qbitmap.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qframe.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qtextoption.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qpen.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qtextlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qevent.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qiodevice.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qeventpoint.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qvector2d.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qvectornd.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qinputdevice.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qscreen.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/QList \
+ D:/a/6.8.3/mingw_64/include/QtCore/qlist.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/QObject \
+ D:/a/6.8.3/mingw_64/include/QtCore/qobject.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/QRect \
+ D:/a/6.8.3/mingw_64/include/QtCore/qrect.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/QSize \
+ D:/a/6.8.3/mingw_64/include/QtCore/qsize.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/QSizeF \
+ D:/a/6.8.3/mingw_64/include/QtGui/QTransform \
+ D:/a/6.8.3/mingw_64/include/QtGui/qtransform.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qscreen_platform.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qguiapplication.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qeventloop.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
+ D:/a/6.8.3/mingw_64/include/QtCore/qlocale.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qglyphrun.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qrawfont.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qfontdatabase.h \
  D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/include/ui_finddialog.h \
  D:/a/6.8.3/mingw_64/include/QtCore/QVariant \
  D:/a/6.8.3/mingw_64/include/QtCore/qvariant.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QApplication \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qapplication.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qeventloop.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
- D:/a/6.8.3/mingw_64/include/QtGui/qguiapplication.h \
- D:/a/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
- D:/a/6.8.3/mingw_64/include/QtCore/qlocale.h \
- D:/a/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
- D:/a/6.8.3/mingw_64/include/QtWidgets/QDialog
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QCheckBox \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qcheckbox.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qabstractbutton.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QDialog \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QHBoxLayout \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qgridlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QLabel \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/qpicture.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QLineEdit \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QPushButton \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qpushbutton.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QSpacerItem \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QWidget \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h

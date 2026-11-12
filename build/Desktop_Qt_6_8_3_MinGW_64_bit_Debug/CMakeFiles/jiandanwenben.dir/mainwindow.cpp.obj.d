@@ -494,4 +494,9 @@ CMakeFiles/jiandanwenben.dir/mainwindow.cpp.obj: \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QInputDialog \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qinputdialog.h \
- D:/a/6.8.3/mingw_64/include/QtWidgets/qlineedit.h
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlineedit.h \
+ D:\a\jiandanwenben\finddialog.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QDialog \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
+ D:\a\jiandanwenben\replacedialog.h D:\a\jiandanwenben\aboutdialog.h

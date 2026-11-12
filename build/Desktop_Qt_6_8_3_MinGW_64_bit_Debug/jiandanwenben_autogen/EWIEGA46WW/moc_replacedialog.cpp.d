@@ -1,5 +1,10 @@
 D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/EWIEGA46WW/moc_replacedialog.cpp: D:/a/jiandanwenben/replacedialog.h \
   D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autogen/moc_predefs.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/QList \
+  D:/a/6.8.3/mingw_64/include/QtCore/QObject \
+  D:/a/6.8.3/mingw_64/include/QtCore/QRect \
+  D:/a/6.8.3/mingw_64/include/QtCore/QSize \
+  D:/a/6.8.3/mingw_64/include/QtCore/QSizeF \
   D:/a/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/a/6.8.3/mingw_64/include/QtCore/q20iterator.h \
   D:/a/6.8.3/mingw_64/include/QtCore/q20memory.h \
@@ -31,10 +36,16 @@ D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autog
   D:/a/6.8.3/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qcoreevent.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qdatastream.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qdebug.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qendian.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qeventloop.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qflags.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qfloat16.h \
@@ -46,12 +57,14 @@ D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autog
   D:/a/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qhash.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qiodevice.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qiodevicebase.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qiterable.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qiterator.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qlatin1stringview.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qline.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qlist.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qlocale.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qlogging.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qmalloc.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qmap.h \
@@ -61,6 +74,7 @@ D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autog
   D:/a/6.8.3/mingw_64/include/QtCore/qmetatype.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qminmax.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qnamespace.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qnativeinterface.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qnumeric.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qobject.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qobject_impl.h \
@@ -115,40 +129,68 @@ D:/a/jiandanwenben/build/Desktop_Qt_6_8_3_MinGW_64_bit_Debug/jiandanwenben_autog
   D:/a/6.8.3/mingw_64/include/QtCore/qtversionchecks.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qtypeinfo.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qtypes.h \
+  D:/a/6.8.3/mingw_64/include/QtCore/qurl.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qutf8stringview.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qvariant.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qvarlengtharray.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qversiontagging.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qxptype_traits.h \
   D:/a/6.8.3/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/QTransform \
+  D:/a/6.8.3/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qaction.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qbitmap.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qbrush.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qcolor.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qcursor.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qevent.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qeventpoint.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qfont.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qfontdatabase.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qfontinfo.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qglyphrun.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qguiapplication.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qicon.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qimage.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qinputdevice.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qinputmethod.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qkeysequence.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qpaintdevice.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qpalette.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qpen.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qpixelformat.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qpixmap.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qpointingdevice.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qpolygon.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qrawfont.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qregion.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qrgb.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qrgba64.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qscreen.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qscreen_platform.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qtextformat.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qtextlayout.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qtextoption.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qtgui-config.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qtguiexports.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qtguiglobal.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qtransform.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qvector2d.h \
+  D:/a/6.8.3/mingw_64/include/QtGui/qvectornd.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qwindowdefs.h \
   D:/a/6.8.3/mingw_64/include/QtGui/qwindowdefs_win.h \
   D:/a/6.8.3/mingw_64/include/QtWidgets/QDialog \
+  D:/a/6.8.3/mingw_64/include/QtWidgets/QPlainTextEdit \
+  D:/a/6.8.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   D:/a/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+  D:/a/6.8.3/mingw_64/include/QtWidgets/qframe.h \
+  D:/a/6.8.3/mingw_64/include/QtWidgets/qplaintextedit.h \
   D:/a/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
+  D:/a/6.8.3/mingw_64/include/QtWidgets/qtextedit.h \
   D:/a/6.8.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/a/6.8.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/a/6.8.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

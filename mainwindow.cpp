@@ -8,6 +8,10 @@
 #include <QInputDialog>
 #include <QTextDocument>
 #include <QTextCursor>
+#include "finddialog.h"
+#include "replacedialog.h"
+#include "aboutdialog.h"
+
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -188,3 +192,4 @@ void MainWindow::on_actionPaste_triggered()
 {
     ui->plainTextEdit->paste();
 }
+
