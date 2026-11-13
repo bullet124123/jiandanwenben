@@ -10,6 +10,11 @@
 #include <QTextDocument>
 #include <QTextCursor>
 
+// 前置声明
+class FindDialog;
+class ReplaceDialog;
+class AboutDialog;
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE

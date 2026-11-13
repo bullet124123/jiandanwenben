@@ -388,12 +388,6 @@ CMakeFiles/jiandanwenben.dir/aboutdialog.cpp.obj: \
  D:/a/6.8.3/mingw_64/include/QtCore/qlocale.h \
  D:/a/6.8.3/mingw_64/include/QtGui/qguiapplication_platform.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QDialog \
- D:/a/6.8.3/mingw_64/include/QtWidgets/QHBoxLayout \
- D:/a/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
- D:/a/6.8.3/mingw_64/include/QtWidgets/qlayout.h \
- D:/a/6.8.3/mingw_64/include/QtWidgets/qlayoutitem.h \
- D:/a/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
- D:/a/6.8.3/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QLabel \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qframe.h \
@@ -407,5 +401,10 @@ CMakeFiles/jiandanwenben.dir/aboutdialog.cpp.obj: \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QSpacerItem \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qlayoutitem.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/a/6.8.3/mingw_64/include/QtWidgets/qgridlayout.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QWidget \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qwidget.h

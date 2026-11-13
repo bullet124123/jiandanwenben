@@ -13,7 +13,7 @@ AboutDialog::~AboutDialog()
     delete ui;
 }
 
-void AboutDialog::on_btnClose_clicked()
+void AboutDialog::on_btnOk_clicked()
 {
     this->close();
 }

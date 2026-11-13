@@ -138,33 +138,25 @@ void MainWindow::on_actionEditorBg_triggered()
     }
 }
 
-// 查找
+// 查找（使用自定义对话框，删掉原来QInputDialog版本）
 void MainWindow::on_actionFind_triggered()
 {
-    QString text = QInputDialog::getText(this, "查找", "输入查找内容：");
-    if(text.isEmpty()) return;
-    bool ok = ui->plainTextEdit->find(text);
-    if(!ok){
-        QMessageBox::information(this,"提示","未找到");
-    }
+    FindDialog dlg(this, ui->plainTextEdit);
+    dlg.exec();
 }
 
-// 替换
+// 替换（使用自定义对话框，删掉原来QInputDialog版本）
 void MainWindow::on_actionReplace_triggered()
 {
-    QString findStr = QInputDialog::getText(this, "替换", "查找：");
-    if(findStr.isEmpty()) return;
-    QString repStr = QInputDialog::getText(this, "替换", "替换为：");
-    QTextCursor cur = ui->plainTextEdit->textCursor();
-    QString all = ui->plainTextEdit->toPlainText();
-    all.replace(findStr, repStr);
-    ui->plainTextEdit->setPlainText(all);
+    ReplaceDialog dlg(this, ui->plainTextEdit);
+    dlg.exec();
 }
 
-// 关于
+// 关于（使用自定义对话框，删掉原来QMessageBox版本）
 void MainWindow::on_actionAbout_triggered()
 {
-    QMessageBox::about(this,"关于","简易文本编辑器\nQt + QPlainTextEdit");
+    AboutDialog dlg(this);
+    dlg.exec();
 }
 
 // 撤销
@@ -184,26 +176,11 @@ void MainWindow::on_actionCut_triggered()
 }
 // 复制
 void MainWindow::on_actionCopy_triggered()
-
+{
+    ui->plainTextEdit->copy();
+}
 // 粘贴
 void MainWindow::on_actionPaste_triggered()
 {
     ui->plainTextEdit->paste();
-}
-void MainWindow::on_actionFind_triggered()
-{
-    FindDialog dlg(this, m_plainTextEdit);
-    dlg.exec();
-}
-
-void MainWindow::on_actionReplace_triggered()
-{
-    ReplaceDialog dlg(this, m_plainTextEdit);
-    dlg.exec();
-}
-
-void MainWindow::on_actionAbout_triggered()
-{
-    AboutDialog dlg(this);
-    dlg.exec();
 }

@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
@@ -31,7 +30,6 @@ public:
     QLabel *label_3;
     QLabel *label_4;
     QLabel *label_5;
-    QHBoxLayout *horizontalLayout;
     QSpacerItem *horizontalSpacer;
     QPushButton *btnok;
     QSpacerItem *horizontalSpacer_2;
@@ -40,10 +38,10 @@ public:
     {
         if (AboutDialog->objectName().isEmpty())
             AboutDialog->setObjectName("AboutDialog");
-        AboutDialog->resize(149, 118);
+        AboutDialog->resize(432, 296);
         widget = new QWidget(AboutDialog);
         widget->setObjectName("widget");
-        widget->setGeometry(QRect(0, 0, 148, 104));
+        widget->setGeometry(QRect(120, 71, 171, 148));
         verticalLayout = new QVBoxLayout(widget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -72,23 +70,18 @@ public:
 
         verticalLayout->addWidget(label_5);
 
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName("horizontalLayout");
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
-        horizontalLayout->addItem(horizontalSpacer);
+        verticalLayout->addItem(horizontalSpacer);
 
         btnok = new QPushButton(widget);
         btnok->setObjectName("btnok");
 
-        horizontalLayout->addWidget(btnok);
+        verticalLayout->addWidget(btnok);
 
         horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
-        horizontalLayout->addItem(horizontalSpacer_2);
-
-
-        verticalLayout->addLayout(horizontalLayout);
+        verticalLayout->addItem(horizontalSpacer_2);
 
 
         retranslateUi(AboutDialog);
@@ -98,7 +91,7 @@ public:
 
     void retranslateUi(QDialog *AboutDialog)
     {
-        AboutDialog->setWindowTitle(QCoreApplication::translate("AboutDialog", "Dialog", nullptr));
+        AboutDialog->setWindowTitle(QCoreApplication::translate("AboutDialog", "\345\205\263\344\272\216", nullptr));
         label->setText(QCoreApplication::translate("AboutDialog", "\347\256\200\345\215\225\346\226\207\346\234\254\347\274\226\350\276\221\345\231\250", nullptr));
         label_2->setText(QCoreApplication::translate("AboutDialog", "Qt\346\226\207\346\234\254\347\274\226\350\276\221\345\231\250 v1.0", nullptr));
         label_3->setText(QCoreApplication::translate("AboutDialog", "\345\274\200\345\217\221\350\200\205\357\274\232\344\275\231\346\240\221\351\224\265", nullptr));

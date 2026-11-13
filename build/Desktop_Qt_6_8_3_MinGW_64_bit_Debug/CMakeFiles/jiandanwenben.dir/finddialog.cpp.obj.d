@@ -445,6 +445,8 @@ CMakeFiles/jiandanwenben.dir/finddialog.cpp.obj: \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QWidget \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
+ D:/a/6.8.3/mingw_64/include/QtGui/QTextCursor \
+ D:/a/6.8.3/mingw_64/include/QtGui/qtextcursor.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/a/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
